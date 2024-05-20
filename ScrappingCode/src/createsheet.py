@@ -3,7 +3,7 @@ import sys
 from auth import spreadsheet_service
 from auth import drive_service
 
-def create(sheet_name):
+def create_sheet(sheet_name):
     spreadsheet_details = {
         'properties': {
             'title': sheet_name
@@ -25,5 +25,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python createsheet.py <SPREADSHEET_ID>")
         sys.exit(1)
-    spreadsheet_name = sys.argv[1]
-    create(spreadsheet_name)
+    create_sheet(sys.argv[1])
