@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Items-center is to center items in vertical axis.
+Justify-center is to center items in horizontal axis. */
+
+:root {
+  @apply bg-my-soft-blue
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, li, h3 {
+  @apply font-robotoCondensed
+}
+
+p {
+  @apply font-mulish
+}
+
+a {
+  @apply text-blue-700
+}
+
+a:hover {
+  @apply text-my-yellow
+}
+
+.navbar-button {
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navbar-button:after {
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 60px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.navbar-button-yellow:after {
+  @apply bg-my-yellow;
+}
+
+.navbar-button-green:after {
+  @apply bg-my-green;
+}
+
+.navbar-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.navbar-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-button {
+    padding: 0 40px;
+  }
+}

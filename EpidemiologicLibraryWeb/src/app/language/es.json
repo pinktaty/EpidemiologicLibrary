@@ -1,0 +1,591 @@
+{
+  "definition": "es",
+  "title": "Biblioteca Epidemiológica",
+  "language": {
+    "title": "Lenguaje",
+    "types": [
+      "Inglés",
+      "Español",
+      "Noruego"
+    ]
+  },
+  "home": {
+    "title": "Sobre nosotros",
+    "about": {
+      "title": "Sobre el proyecto",
+      "content": [
+        "Este proyecto fue desarrollado por mí, Lilith Díaz, para el programa \"Riesgos Catastróficos Globales\" de la organización Carreras con Impacto.",
+        "Para ver detalles técnicos y acceder al write-up consultar el ",
+        "repositorio en Github ",
+        "del proyecto."
+      ]
+    },
+    "objectives": {
+      "title": "Objetivos del proyecto",
+      "content": [
+        "Este proyecto pretende atender el área de riesgos biológicos mediante la creación de un repositorio que almacene información de importancia epidemiológica de los últimos 25 años en México (2000-2024).",
+        "La recolección de estos datos ayudará al futuro análisis de los eventos con el fin de no solamente facilitar la respuesta de México ante estos riesgos, sino de otros países; la comparación de respuestas facilitará la creación de estrategias modificadas de acuerdo a casos particulares."
+      ]
+    },
+    "news": {
+      "title": "Noticias y actualizaciones del proyecto",
+      "content": [
+        "Presentación del proyecto y despliegue oficial de la página el 1 de agosto del 2024."
+      ]
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "content": [
+        ["Desarrolladora:", "Lilith Díaz (pinktaty)"],
+        ["Mentor:", "Carreras con Impacto"]
+      ]
+    }
+  },
+  "exploreData": {
+    "title": "Explore Data",
+    "instructions": "Para buscar información en la base de datos seleccionar la enfermedad y tras esto los filtros de su interés.",
+    "specifications": "Si encuentra un campo en la base de datos con la notación IND significa que la información no estaba disponible en la fuente original.",
+    "actualization": "Esta base de datos está actualizada hasta julio del 2024.",
+    "selectedDisease": "La enfermedad que ha seleccionado es:",
+    "userFilters": "Filtros seleccionados:",
+    "instructionUserFilters": "Para eliminar un filtro seleccionado, clicar en él.",
+    "diseases": {
+      "title": "Enfermedades",
+      "cases": "Casos Detectados ",
+      "source": "Fuente: ",
+      "data": [
+        {
+          "title": "Chikungunya",
+          "filters": [
+            {
+              "title": "Años",
+              "data": [
+                {
+                  "title": "2020",
+                  "file": "Chikungunya2020es",
+                  "fileDescription": "Chikungunya 2020",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf \"Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2021¨ proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Chikungunya2020",
+                  "source": "Chikungunya2021"
+                },
+                {
+                  "title": "2021",
+                  "file": "Chikungunya2021es",
+                  "fileDescription": "Chikungunya 2021",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf \"Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2021¨ proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Chikungunya2021",
+                  "source": "Chikungunya2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Chikungunya2022es",
+                  "fileDescription": "Chikungunya 2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf \"Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2022¨ proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Chikungunya2022",
+                  "source": "Chikungunya2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Chikungunya2023es",
+                  "fileDescription": "Chikungunya 2023",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf \"Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa e Institución Notificante, semana epidemiológica 52, 2023¨ proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Chikungunya2023",
+                  "source": "Chikungunya2023"
+                },
+                {
+                  "title": "2024",
+                  "file": "Chikungunya2024es",
+                  "fileDescription": "Chikungunya 2024",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf \"Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 27, 2024¨ proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Chikungunya2024",
+                  "source": "Chikungunya2024"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Conjuntivitis",
+          "filters": [
+          ],
+          "file": "ConjunctivitisEs",
+          "fileDescription": "Conjuntivitis 2003-2013",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Conjuntivitis",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Conjuntivitis hemorrágica epidémica",
+          "filters": [
+          ],
+          "file": "ConjuntivitisHemorraicaEs",
+          "fileDescription": "Conjuntivitis hemorrágica epidémica 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "ConjuntivitisHemorraica",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Covid-19",
+          "filters": [
+            {
+              "title": "Años",
+              "data": [
+                {
+                  "title": "2020",
+                  "file": "Covid-19-2020es",
+                  "fileDescription": "Covid-19 2020",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Informe Técnico Diario COVID-19 MÉXICO, 31/12/2020' proporcionado por la Subsecretaría de Prevención y Promoción de la Salud de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Covid2020",
+                  "source": "COVID-19-2020"
+                },
+                {
+                  "title": "2021",
+                  "file": "Covid-19-2021es",
+                  "fileDescription": "Covid-19 2021",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Informe Técnico Diario COVID-19 MÉXICO, 31/12/2021' proporcionado por la Subsecretaría de Prevención y Promoción de la Salud de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Covid2021",
+                  "source": "COVID-19-2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Covid-19-2022es",
+                  "fileDescription": "Covid-19 2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Informe Técnico Diario COVID-19 MÉXICO, 27/12/2022' proporcionado por la Subsecretaría de Prevención y Promoción de la Salud de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Covid2022",
+                  "source": "COVID-19-2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Covid-19-2023es",
+                  "fileDescription": "Covid-19 2023",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Semanal COVID-19 MÉXICO, 01/08/2023' provided by the Undersecretary of Prevention and Health Promotiony of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Covid2023",
+                  "source": "COVID-19-2023"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Dengue",
+          "filters": [
+            {
+              "title": "Años",
+              "data": [
+                {
+                  "title": "2023",
+                  "file": "Dengue-2023es",
+                  "fileDescription": "Dengue 2023",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Panorama epidemiológico de dengue, semana epidemiológica 27 de 2024' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Dengue2023",
+                  "source": "Dengue"
+                },
+                {
+                  "title": "2024",
+                  "file": "Dengue-2024es",
+                  "fileDescription": "Dengue 2024",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Panorama epidemiológico de dengue, semana epidemiológica 27 de 2024' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Dengue2024",
+                  "source": "Dengue"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Difteria",
+          "filters": [
+          ],
+          "file": "DifteriaEs",
+          "fileDescription": "Difteria ",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Difteria",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Entiritis Debida a Rotavirus",
+          "filters": [
+          ],
+          "file": "EntiritisRotavirusEs",
+          "fileDescription": "Entiritis debida a\nrotavirus 2008-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "EntiritisRotavirus",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Enfermedad Invasiva por Neumococo",
+          "filters": [
+          ],
+          "file": "EnfermedadInvasivaNeumococo",
+          "fileDescription": "Enfermedad invasiva por\nneumococo 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Faringitis y amigdalitis estreptocócicas",
+          "filters": [
+          ],
+          "file": "FaringitisAmigdalitisEstreptococicas",
+          "fileDescription": "Faringitis y amigdalitis\nestreptocócicas 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "FaringitisAmigdalitisEstreptococicas",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Fiebre",
+          "filters": [
+            {
+              "title": "Tipos",
+              "data": [
+                {
+                  "title": "Tifoeida",
+                  "file": "FiebreTifoida",
+                  "fileDescription": "Fiebre Tifoeidea 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "FiebreTifoeida",
+                  "source": "MorbilidadNacional2000-2022"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Hepatitis",
+          "filters": [
+            {
+              "title": "Tipos",
+              "data": [
+                {
+                  "title": "A",
+                  "file": "HepatitisAes",
+                  "fileDescription": "Hepatitis A 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "HepatitisA",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "B",
+                  "file": "HepatitisBes",
+                  "fileDescription": "Hepatitis B 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "HepatitisB",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "C",
+                  "file": "HepatitisCes",
+                  "fileDescription": "Hepatitis C 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "HepatitisC",
+                  "source": "MorbilidadNacional2000-2022"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Infecciones invasivas por Haemophilus Influenzae",
+          "filters": [
+          ],
+          "file": "InfeccionesInvasivasHaemophilusInfluenzae",
+          "fileDescription": "Infecciones invasivas por\nHaemophilus Influenzae 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "InfeccionesInvasivasHaemophilusInfluenzae",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Infecciones respiratorias agudas",
+          "filters": [
+          ],
+          "file": "InfeccionesRespiratoriasAgudas",
+          "fileDescription": "Infecciones respiratorias\nagudas 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "InfeccionesRespiratoriasAgudas",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Influenza",
+          "filters": [
+            {
+              "title": "Tipos",
+              "data": [
+                {
+                  "title": "Del Aparato Respiratorio",
+                  "file": "InfluenzaAparatoRespiratorio",
+                  "fileDescription": "Influenza Del Aparato\nRespiratorio 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "InfluenzaAparatoRespiratorio",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "A (H1N1)",
+                  "file": "InfluenzaA(H1N1)es",
+                  "fileDescription": "Influenza A (H1N1) 2009-2013",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "InfluenzaA(H1N1)",
+                  "source": "MorbilidadNacional2000-2022"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Mpox",
+          "filters": [
+          ],
+          "file": "Mpox2022-2023es",
+          "fileDescription": "Mpox 2022-2023",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Informe Técnico Final de Vigilancia Epidemiológica de MPOX (antes viruela símica) en México' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Mpox",
+          "source": "MPOX"
+        },
+        {
+          "title": "Neumonías y bronconeumonías",
+          "filters": [
+          ],
+          "file": "NeumoniasBronconeumonias",
+          "fileDescription": "Neumonías y bronconeumonías\n2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "NeumoniasBronconeumonias",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Lepra",
+          "filters": [
+          ],
+          "file": "Lepra",
+          "fileDescription": "Lepra 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Lepra",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Rabia",
+          "filters": [
+          ],
+          "file": "RabiaEs",
+          "fileDescription": "Rabia 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Rabia",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Rubéola",
+          "filters": [
+          ],
+          "file": "Rubeola",
+          "fileDescription": "Rubéola 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Rubeola",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Sarampión",
+          "filters": [
+          ],
+          "file": "Sarampion-2020",
+          "fileDescription": "Sarampión 2020",
+          "image": "Sarampion-2020",
+          "source": "BroteSarampion19"
+        },
+        {
+          "title": "Shigelosis",
+          "filters": [
+          ],
+          "file": "ShigelosisEs",
+          "fileDescription": "Shigelosis 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Shigelosis",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Tripanosomiasis americana crónica",
+          "filters": [
+          ],
+          "file": "TripanosomiasisAmericanaCronica",
+          "fileDescription": "Tripanosomiasis americana\ncrónica 2017-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "TripanosomiasisAmericanaCronica",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Tuberculosis",
+          "filters": [
+            {
+              "title": "Tipos",
+              "data": [
+                {
+                  "title": "Del Aparato Respiratorio",
+                  "file": "TuberculosisAparatoRespiratorio",
+                  "fileDescription": "Tuberculosis Del Aparato\nRespiratorio 2000-2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "TuberculosisAparatoRespiratorio",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "Meníngenea",
+                  "file": "TuberculosisMeningenea",
+                  "fileDescription": "Tuberculosis Meníngenea 2000-2016",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "TuberculosisMeningenea",
+                  "source": "MorbilidadNacional2000-2022"
+                }]
+            }
+          ]
+        },
+        {
+          "title": "Varicela",
+          "filters": [
+          ],
+          "file": "Varicela",
+          "fileDescription": "Varicela 2000-2022",
+          "fileContent": "La información expuesta en esta base de datos fue recolectada de los pdfs de morbilidad nacional desde el año 2000 al año 2022 proporcionados por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+          "image": "Varicela",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "VIH",
+          "filters": [
+          ],
+          "file": "VIH",
+          "fileDescription": "VIH 2000-2024",
+          "image": "VIH"
+        },
+        {
+          "title": "Zika",
+          "filters": [
+            {
+              "title": "Years",
+              "data": [
+                {
+                  "title": "2015-2020",
+                  "file": "Zika2015-2020es",
+                  "fileDescription": "Zika 2015-2020",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2021' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Zika2015-2020",
+                  "source": "Zika2021"
+                },
+                {
+                  "title": "2021",
+                  "file": "Zika2021es",
+                  "fileDescription": "Zika 2021",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2021' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Zika2021",
+                  "source": "Zika2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Zika2022es",
+                  "fileDescription": "Zika 2022",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2022' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Zika2022",
+                  "source": "Zika2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Zika2023es",
+                  "fileDescription": "Zika 2023",
+                  "fileContent": "La información expuesta en esta base de datos fue recolectada del pdf 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2023' proporcionado por la Dirección General de Epidemiología de México.\nDicha base de datos contiene la siguiente información: patógeno, clasificación del patógeno; casos detectados y muertes según año y lugar de origen.",
+                  "image": "Zika2023",
+                  "source": "Zika2023"
+                }]
+            }
+          ]
+        }
+      ]
+    },
+    "classifications": ["Pandemic", "Epidemiological Outbreak"],
+    "emergencyLevels": ["High", "Medium", "Low"]
+  },
+  "additionalResources": {
+    "title": "Recursos Adicionales",
+    "sections": [
+      {
+        "title": "Bases de datos",
+        "names": [
+          "Base de datos BWC",
+          "ePATHogen - Base de datos"
+        ],
+        "descriptions": [
+          "La base de datos contiene ejemplos de legislación que cubren disposiciones penales, medidas de bioseguridad y bioprotección, medidas de control de exportaciones y aplicación de la ley.",
+          "Para realizar búsquedas de agentes biológicos."
+        ],
+        "languages": [
+          "Inglés",
+          "Inglés"
+        ],
+        "links": [
+          "https://www.vertic.org/programmes/nim/biological-weapons-and-materials/bwc-legislation-database/",
+          "https://health.canada.ca/en/epathogen"
+        ]
+      },
+      {
+        "title": "Herramientas",
+        "names": [
+          "Escaneo rápido de uso dual",
+          "Auto-escaneo en bioseguridad",
+          "Encuestas Biocheck.UGent"
+        ],
+        "descriptions": [
+          "El propósito de este escaneo de uso dual en línea es identificar posibles aspectos de doble uso en la investigación.",
+          "Cuestionario que cubre los ocho pilares de la bioseguridad y está diseñado para ofrecer una indicación del nivel actual de bioseguridad en su organización.",
+          "Biocheck.UGent es un sistema de puntuación para medir el riesgo de bioseguridad a nivel de granja. La herramienta permite a los agricultores cuantificar los riesgos de bioseguridad asociados con el ganado, cerdos, aves de corral y pequeños rumiantes."
+        ],
+        "languages": [
+          "Inglés, Ruso, Holandés",
+          "Inglés, Ruso, Holandés, Francés, Turco",
+          "Inglés"
+        ],
+        "links": [
+          "https://dualusequickscan.com/en/",
+          "https://biosecurityselfscan.nl/en/home",
+          "https://biosecuritycentral.org/resource/training-materials/biocheck-surveys/"
+        ]
+      },
+      {
+        "title": "Aplicaciones",
+        "names": [
+          "Prevención de uso dual",
+          "App de bioseguridad canadiense"
+        ],
+        "descriptions": [
+          "El Grupo Internacional de Expertos en Reguladores de Bioseguridad y Bioprotección (IEGBBR) desarrolló la Aplicación Móvil IEGBBR que permite a los usuarios buscar a través de descripciones detalladas de los enfoques nacionales de supervisión regulatoria de los 11 países miembros de IEGBBR.",
+          "Permite a los usuarios interactuar con los Estándares Canadienses de Bioseguridad (CBS) encontrando los requisitos específicos para su instalación."
+        ],
+        "languages": [
+          "Inglés, Francés",
+          "Inglés"
+        ],
+        "links": [
+          "https://biosecuritycentral.org/resource/requirements-and-protocols/iegbbr-app/",
+          "https://biosecuritycentral.org/resource/requirements-and-protocols/canadian-biosafety-app/"
+        ]
+      },
+      {
+        "title": "Juegos de simulación",
+        "names": [
+          "Biorisk Adventure",
+          "Simulador de Covid"
+        ],
+        "descriptions": [
+          "Al jugar este juego, aprenderá cómo aplicar conocimientos y tomar decisiones acertadas en la selección de medidas de control de riesgos que sean alcanzables utilizando los recursos locales disponibles, sin ser demasiado restrictivas y que permitan que el trabajo se realice de manera segura y protegida.",
+          "Este juego te permitirá ponerte en el lugar de un gobierno que debe decidir qué medidas de mitigación tomar. Probarás a gestionar situaciones relacionadas con la epidemia de coronavirus y verás las consecuencias de tus decisiones en detalle."
+        ],
+        "languages": [
+          "Inglés",
+          "Inglés, Checo"
+        ],
+        "links": [
+          "https://ifbabioriskadventure.org/",
+          "https://covidgame.info/"
+        ]
+      },
+      {
+        "title": "Otras páginas",
+        "names": ["Central de bioseguridad", "Nuestro mundo en datos"],
+        "descriptions": [
+          "Información relevante de bioseguridad.",
+          "Información relevante sobre la pandemia de coronavirus."
+        ],
+        "languages": ["Inglés", "Inglés"],
+        "links": ["https://biosecuritycentral.org/explore/?", "https://ourworldindata.org/coronavirus"]
+      }
+    ],
+    "language": "Lenguajes disponibles: "
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "definition": "en",
+  "title": "Epidemiologic Library",
+  "language": {
+    "title": "Language",
+    "types": [
+      "English",
+      "Spanish",
+      "Norwegian"
+    ]
+  },
+  "home": {
+    "title": "About us",
+    "about": {
+      "title": "About the project",
+      "content": [
+        "This project was developed by me, Lilith Díaz, for the \"Global Catastrophic Risks\" program of the organization Careers with Impact.",
+        "For technical details and write-up consult ",
+        "Github's repository ",
+        "of the project."
+      ]
+    },
+    "objectives": {
+      "title": "Project's Objectives",
+      "content": [
+        "This project aims to address the area of biological risks by creating a repository that stores information of epidemiologic importance from the past 25 years in Mexico (2000-2024).",
+        "This data collection will aid future event analysis to not only facilitate Mexico's response to these risks but also that of other countries: comparing responses will facilitate the creation of strategies tailored to particular cases."
+      ]
+    },
+    "news": {
+      "title": "News and updates about the project",
+      "content": [
+        "Official presentation of the proyect and deployment of the page on August 1st, 2024."
+      ]
+    },
+    "contact": {
+      "title": "Contact us",
+      "content": [
+        [
+          "Developer:",
+          "Lilith Díaz (pinktaty)"
+        ],
+        [
+          "Mentor:",
+          "Careers with Impact"
+        ]
+      ]
+    }
+  },
+  "exploreData": {
+    "title": "Explore Data",
+    "instructions": "To search for information in the database, select the disease and then the filters of interest.",
+    "specifications": "If you fiend a field in the database with the notation IND, it means the information wasn't available in the original source.",
+    "actualization": "This database is updated until July 2024.",
+    "selectedDisease": "Your selected disease is",
+    "userFilters": "Selected filters:",
+    "instructionUserFilters": "To unselect a filter, click on it.",
+    "diseases": {
+      "title": "Diseases",
+      "cases": "Cases ",
+      "source": "Source: ",
+      "data": [
+        {
+          "title": "Acute respiratory infections",
+          "filters": [
+          ],
+          "file": "AcuteRespiratoryInfections",
+          "fileDescription": "Acute respiratory\ninfections 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "InfeccionesRespiratoriasAgudas",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Chickenpox",
+          "filters": [
+          ],
+          "file": "Chickenpox",
+          "fileDescription": "Chickenpox 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Varicela",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Chikungunya",
+          "filters": [
+            {
+              "title": "Years",
+              "data": [
+                {
+                  "title": "2020",
+                  "file": "Chikungunya2020en",
+                  "fileDescription": "Chikungunya 2020",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2020' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Chikungunya2020",
+                  "source": "Chikungunya2021"
+                },
+                {
+                  "title": "2021",
+                  "file": "Chikungunya2021en",
+                  "fileDescription": "Chikungunya 2021",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2021' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Chikungunya2021",
+                  "source": "Chikungunya2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Chikungunya2022en",
+                  "fileDescription": "Chikungunya 2022",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 52, 2022' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Chikungunya2022",
+                  "source": "Chikungunya2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Chikungunya2023en",
+                  "fileDescription": "Chikungunya 2023",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa e Institución Notificante, semana epidemiológica 52, 2023' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Chikungunya2023",
+                  "source": "Chikungunya2023"
+                },
+                {
+                  "title": "2024",
+                  "file": "Chikungunya2024en",
+                  "fileDescription": "Chikungunya 2024",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Fiebre Chikungunya por Entidad Federativa, semana epidemiológica 27, 2024' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Chikungunya2024",
+                  "source": "Chikungunya2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chronic american trypanosomiasis",
+          "filters": [
+          ],
+          "file": "ChronicAmericanTrypanosomiasis",
+          "fileDescription": "Chronic american\ntrypanosomiasis 2017-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "TripanosomiasisAmericanaCronica",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Conjunctivitis",
+          "filters": [
+          ],
+          "file": "ConjunctivitisEn",
+          "fileDescription": "Conjunctivitis 2003-2013",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Conjuntivitis",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Covid-19",
+          "filters": [
+            {
+              "title": "Years",
+              "data": [
+                {
+                  "title": "2020",
+                  "file": "Covid-19-2020en",
+                  "fileDescription": "Covid-19 2020",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Diario COVID-19 MÉXICO, 31/12/2020' provided by the Undersecretary of Prevention and Health Promotiony of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Covid2020",
+                  "source": "COVID-19-2020"
+                },
+                {
+                  "title": "2021",
+                  "file": "Covid-19-2021en",
+                  "fileDescription": "Covid-19 2021",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Diario COVID-19 MÉXICO, 31/12/2021' provided by the Undersecretary of Prevention and Health Promotiony of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Covid2021",
+                  "source": "COVID-19-2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Covid-19-2022en",
+                  "fileDescription": "Covid-19 2022",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Diario COVID-19 MÉXICO, 27/12/2022' provided by the Undersecretary of Prevention and Health Promotiony of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Covid2022",
+                  "source": "COVID-19-2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Covid-19-2023en",
+                  "fileDescription": "Covid-19 2023",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Semanal COVID-19 MÉXICO, 01/08/2023' provided by the Undersecretary of Prevention and Health Promotiony of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Covid2023",
+                  "source": "COVID-19-2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dengue",
+          "filters": [
+            {
+              "title": "Years",
+              "data": [
+                {
+                  "title": "2023",
+                  "file": "Dengue-2023en",
+                  "fileDescription": "Dengue 2023",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Panorama epidemiológico de dengue, semana epidemiológica 27 de 2024' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Dengue2023",
+                  "source": "Dengue"
+                },
+                {
+                  "title": "2024",
+                  "file": "Dengue-2024en",
+                  "fileDescription": "Dengue 2024",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Panorama epidemiológico de dengue, semana epidemiológica 27 de 2024' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Dengue2024",
+                  "source": "Dengue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Diphteria",
+          "filters": [
+          ],
+          "file": "DifteriaEn",
+          "fileDescription": "Diphteria ",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Difteria",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Enteritis due to rotavirus",
+          "filters": [
+          ],
+          "file": "EntiritisRotavirusEn",
+          "fileDescription": "Enteritis due to\nrotavirus 2008-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "EntiritisRotavirus",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Epidemic hemorrhagic conjunctivitis",
+          "filters": [
+          ],
+          "file": "ConjuntivitisHemorraicaEn",
+          "fileDescription": "Epidemic hemorrhagic\nconjunctivitis 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "ConjuntivitisHemorraica",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Fever",
+          "filters": [
+            {
+              "title": "Types",
+              "data": [
+                {
+                  "title": "Typhoid",
+                  "file": "TyphoidFever",
+                  "fileDescription": "Typhoid Fever 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "FiebreTifoeida",
+                  "source": "MorbilidadNacional2000-2022"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hepatitis",
+          "filters": [
+            {
+              "title": "Types",
+              "data": [
+                {
+                  "title": "A",
+                  "file": "HepatitisAen",
+                  "fileDescription": "Hepatitis A 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "HepatitisA",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "B",
+                  "file": "HepatitisBen",
+                  "fileDescription": "Hepatitis B 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "HepatitisB",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "C",
+                  "file": "HepatitisCen",
+                  "fileDescription": "Hepatitis C 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "HepatitisC",
+                  "source": "MorbilidadNacional2000-2022"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HIV",
+          "filters": [
+          ],
+          "file": "HIV",
+          "fileDescription": "HIV 2000-2024",
+          "image": "VIH"
+        },
+        {
+          "title": "Influenza",
+          "filters": [
+            {
+              "title": "Types",
+              "data": [
+                {
+                  "title": "Of The Respiratory System",
+                  "file": "InfluenzaRespiratorySystem",
+                  "fileDescription": "Influenza of the respiratory\nsystem 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "InfluenzaAparatoRespiratorio",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "A (H1N1)",
+                  "file": "InfluenzaA(H1N1)en",
+                  "fileDescription": "Influenza A (H1N1) 2009-2013",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "InfluenzaA(H1N1)",
+                  "source": "MorbilidadNacional2000-2022"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Invasive Haemophilus Influenzae infections",
+          "filters": [
+          ],
+          "file": "InvasiveHaemophilusInfluenzaeInfections",
+          "fileDescription": "Invasive Haemophilus\nInfluenzae infections 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "InfeccionesInvasivasHaemophilusInfluenzae",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Invasive Pneumococcus Disease",
+          "filters": [
+          ],
+          "file": "InvasivePneumococcusDisease",
+          "fileDescription": "Invasive Pneumococcus\nDisease 2014-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Measles",
+          "filters": [
+          ],
+          "file": "Measles-2020",
+          "fileDescription": "Measles 2020",
+          "image": "Sarampion-2020",
+          "source": "BroteSarampion19"
+        },
+        {
+          "title": "Mpox",
+          "filters": [
+          ],
+          "file": "Mpox2022-2023en",
+          "fileDescription": "Mpox 2022-2023",
+          "fileContent": "The information presented in this database was collected from the PDF 'Informe Técnico Final de Vigilancia Epidemiológica de MPOX (antes viruela símica) en México' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Mpox",
+          "source": "MPOX"
+        },
+        {
+          "title": "Leprosy",
+          "filters": [
+          ],
+          "file": "Leprosy",
+          "fileDescription": "Leprosy 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Lepra",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Pneumonia and bronchopneumonia",
+          "filters": [
+          ],
+          "file": "PneumoniaBronchopneumonia",
+          "fileDescription": "Pneumonia and\nbronchopneumonia 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "NeumoniasBronconeumonias",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Rabia",
+          "filters": [
+          ],
+          "file": "RabiaEn",
+          "fileDescription": "Rabia 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Rabia",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Rubella",
+          "filters": [
+          ],
+          "file": "Rubella",
+          "fileDescription": "Rubella 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Rubeola",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Shigelosis",
+          "filters": [
+          ],
+          "file": "ShigelosisEn",
+          "fileDescription": "Shigelosis 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "Shigelosis",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Strep throat and tonsillitis",
+          "filters": [
+          ],
+          "file": "StrepThroatTonsillitis",
+          "fileDescription": "Strep throat and\ntonsillitis 2000-2022",
+          "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+          "image": "FaringitisAmigdalitisEstreptococicas",
+          "source": "MorbilidadNacional2000-2022"
+        },
+        {
+          "title": "Tuberculosis",
+          "filters": [
+            {
+              "title": "Types",
+              "data": [
+                {
+                  "title": "Of The Respiratory System",
+                  "file": "TuberculosisRespiartorySystem",
+                  "fileDescription": "Tuberculosis of the respiratory system 2000-2022",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "TuberculosisAparatoRespiratorio",
+                  "source": "MorbilidadNacional2000-2022"
+                },
+                {
+                  "title": "Meningene",
+                  "file": "TuberculosisMeningene",
+                  "fileDescription": "Tuberculosis Meningene 2000-2016",
+                  "fileContent": "The information presented in this database was collected from all the PDFs of national morbidity from 2000 to 2022 provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "TuberculosisMeningenea",
+                  "source": "MorbilidadNacional2000-2022"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Zika",
+          "filters": [
+            {
+              "title": "Years",
+              "data": [
+                {
+                  "title": "2015-2020",
+                  "file": "Zika2015-2020en",
+                  "fileDescription": "Zika 2015-2020",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2021' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Zika2015-2020",
+                  "source": "Zika2021"
+                },
+                {
+                  "title": "2021",
+                  "file": "Zika2021en",
+                  "fileDescription": "Zika 2021",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2021' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Zika2021",
+                  "source": "Zika2021"
+                },
+                {
+                  "title": "2022",
+                  "file": "Zika2022en",
+                  "fileDescription": "Zika 2022",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2022' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Zika2022",
+                  "source": "Zika2022"
+                },
+                {
+                  "title": "2023",
+                  "file": "Zika2023en",
+                  "fileDescription": "Zika 2023",
+                  "fileContent": "The information presented in this database was collected from the PDF 'Casos Confirmados Autóctonos de Enfermedad por Virus del Zika por Entidad Federativa; Semana Epidemiológica 52, 2023' provided by the General Directorate of Epidemiology of Mexico. \nThis database contains the following information: pathogen, classification of the pathogen; detected cases and deaths by year and place of origin.",
+                  "image": "Zika2023",
+                  "source": "Zika2023"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "classifications": [
+      "Pandemic",
+      "Epidemiological Outbreak"
+    ],
+    "emergencyLevels": [
+      "High",
+      "Medium",
+      "Low"
+    ]
+  },
+  "additionalResources": {
+    "title": "Recursos Adicionales",
+    "sections": [
+      {
+        "title": "Data bases",
+        "names": [
+          "BWC Legislation Database",
+          "ePATHogen - Risk Group Database"
+        ],
+        "descriptions": [
+          "The database contains examples of legislation covering criminal provisions, biosafety and biosecurity measures, export control measures and enforcement.",
+          "To conduct searches in biological agents."
+        ],
+        "languages": [
+          "English",
+          "English"
+        ],
+        "links": [
+          "https://www.vertic.org/programmes/nim/biological-weapons-and-materials/bwc-legislation-database/",
+          "https://health.canada.ca/en/epathogen"
+        ]
+      },
+      {
+        "title": "Tools",
+        "names": [
+          "Dual-Use Quickscan",
+          "Biosecurity Self-scan Toolkit",
+          "Biocheck.UGent surveys"
+        ],
+        "descriptions": [
+          "The purpose of this online Dual-Use Quickscan is to identify potential dual-use aspects in research.",
+          "The toolkit is in the form of a questionnaire covering the eight pillars of biosecurity that is designed to give you an indication of the current level of biosecurity in your organisation.",
+          "Biocheck.UGent is a scoring system to measure biosecurity risk at the farm level. The tool allows farmers to quantify the biosecurity risks associated with cattle, pig, poultry, and small ruminants."
+        ],
+        "languages": [
+          "English, Russian, Dutch",
+          "English, Russian, Dutch, French, Turkish",
+          "English"
+        ],
+        "links": [
+          "https://dualusequickscan.com/en/",
+          "https://biosecurityselfscan.nl/en/home",
+          "https://biosecuritycentral.org/resource/training-materials/biocheck-surveys/"
+        ]
+      },
+      {
+        "title": "Web apps",
+        "names": [
+          "Dual-Use Oversight",
+          "Canadian Biosafety App"
+        ],
+        "descriptions": [
+          "The International Experts Group of Biosafety and Biosecurity Regulators (IEGBBR) developed the IEGBBR Mobile Application that allows users to search through detailed descriptions of the national regulatory oversight approaches from the 11 IEGBBR member countries.",
+          "The Canadian Biosafety App allows users to engage with the Canadian Biosafety Standards (CBS) by finding the requirements that are specific to your facility."
+        ],
+        "languages": [
+          "English, French",
+          "English"
+        ],
+        "links": [
+          "https://biosecuritycentral.org/resource/requirements-and-protocols/iegbbr-app/",
+          "https://biosecuritycentral.org/resource/requirements-and-protocols/canadian-biosafety-app/"
+        ]
+      },
+      {
+        "title": "Simulation games",
+        "names": [
+          "Biorisk Adventure",
+          "Covid simulator"
+        ],
+        "descriptions": [
+          "By playing this game, you will learn how to apply knowledge and make sound judgements in the selection of appropriate risk-control measures that are achievable using the local resources available, are not overly restrictive, and enable the work to proceed safely and securely.",
+          "This game will let you step into the place of a government that must decide what mitigation measures to take. You will try out managing situations connected to the coronavirus epidemic and see the consequences of your decisions in detail."
+        ],
+        "languages": [
+          "English",
+          "English, Czech"
+        ],
+        "links": [
+          "https://ifbabioriskadventure.org/",
+          "https://covidgame.info/"
+        ]
+      },
+      {
+        "title": "Other pages",
+        "names": ["Biosecurity central", "Our world in data"],
+        "descriptions": [
+          "Relevant biosafety information.",
+          "Relevant coronavirus pandemic information."
+        ],
+        "languages": ["English", "English"],
+        "links": ["https://biosecuritycentral.org/explore/?", "https://ourworldindata.org/coronavirus"]
+      }
+    ]
+  }
+}
