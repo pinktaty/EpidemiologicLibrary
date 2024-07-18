@@ -23,7 +23,7 @@ def ask_chatGPT(content, api_key, instructions):
     return response.choices[0].message.content
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python extract_info.py <CONTENT>")
+    if len(sys.argv) != 4:
+        print("Usage: python extract_info.py <CONTENT> <APIKEY> <INSTRUCTIONS>")
         sys.exit(1)
-    print(ask_chatGPT(sys.argv[1]))
+    print(ask_chatGPT(sys.argv[1], sys.argv[2], sys.argv[3]))
