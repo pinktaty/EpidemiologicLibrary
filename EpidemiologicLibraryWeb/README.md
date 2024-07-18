@@ -2,8 +2,6 @@
 
 ## Structure
 
-Sure, here is the translated version:
-
 - `/out`: Folder containing the static files for the website to be deployed.
 - `/public/files/`: Folder containing the .xlsx files with the epidemiological information to be downloaded.
 - `/public/graphs/`: Folder containing the graphs representing the epidemiological information in a graphical form.
@@ -24,7 +22,7 @@ Sure, here is the translated version:
 
 # Web Biblioteca Epidemiológica
 
-## Structure
+## Estructura
 
 - `/out/`: Carpeta con los archivos de la página web en formato estático para su deployment..
 - `/public/files/`: Carpeta con los archivos .xlsx que contienen la información epidemiológica a descargar.
