@@ -15,7 +15,7 @@ To check-out page: https://pinktaty.github.io/EpidemiologicLibraryWeb/
 - `EpidemiologicLibrary/ScrappingCode/src/obtain_data_pdf.py`: Program that allows using the workflow utilized during the project for data collection.
 - `EpidemiologicLibrary/ScrappingCode/src/ChatGPTAPI`: Folder containing the code that connects to the ChatGPT API; it is possible to use the file independently to connect to the API.
 - `EpidemiologicLibrary/ScrappingCode/src/GoogleSheetsAPI`: Folder containing the code that connects to the Google Sheets API; any file can be used independently by adding the 'credentials.json' API authentication document in the same file path that is being used.
-- `EpidemiologicLibrary/ScrappingCode/src/pdfplumberLibrary`: Folder containing the code that performs PDF scraping; it is possible to use the file independently to extract information from a PDF by creating a 'sources' folder within 'ScrappingCode' and adding that PDF file.
+- `EpidemiologicLibrary/ScrappingCode/src/pdfplumberLibrary`: Folder containing the code that performs PDF scraping; it is possible to use the file independently to extract information from a PDF by creating a 'sources' folder within 'ScrappingCode' and adding there the PDF file to scrap.
 
 ### Web Design
 
@@ -42,7 +42,7 @@ Para ver la página: https://pinktaty.github.io/EpidemiologicLibraryWeb/
 - `EpidemiologicLibrary/ScrappingCode/src/obtain_data_pdf.py`: Programa que permite usar el flujo de trabajo utilizado durante el proyecto para la recolección de datos.
 - `EpidemiologicLibrary/ScrappingCode/src/ChatGPTAPI`: Carpeta que contiene el código que se conecta a la API de ChatGPT; es posible usar el archivo independientement para conectarse con la API.
 - `EpidemiologicLibrary/ScrappingCode/src/GoogleSheetsAPI`: Carpeta que contiene el código que se conecta a la API de GoogleSheets; es posible usar cualquier archivo de manera independiente añadiendo el documento 'credentials.json' de autenticación de la API en la misma ruta del archivo que se quiera usar.
-- `EpidemiologicLibrary/ScrappingCode/src/pdfplumberLibrary`: Carpeta que contiene el código que realiza el scrapping de los PDFs; es posible usar el archivo independientemente para extraer información de un PDF por medio de crear una carpeta 'sources' en 'ScrappingCode' y añadir ese pdf.
+- `EpidemiologicLibrary/ScrappingCode/src/pdfplumberLibrary`: Carpeta que contiene el código que realiza el scrapping de los PDFs; es posible usar el archivo independientemente para extraer información de un PDF por medio de crear una carpeta 'sources' en 'ScrappingCode' y añadir el pdf del que se quiere obtener la información.
 
 ### Web Design
 
