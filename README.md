@@ -10,8 +10,11 @@ To check-out page: https://pinktaty.github.io/EpidemiologicLibraryWeb/
 
 ### Scrapping Code
 
-- `/out`: Folder containing the static files for the website to be deployed.
+- `EpidemiologicLibrary/ScrappingCode/src/obtain_data_pdf.py`: Program that allows using the workflow used during the project for data collection.
 
+### Web Design
+
+ Wireframe and page structure available in english and spanish.
 
 * * *
 
@@ -25,4 +28,8 @@ Código de la página web, README disponible en la carpeta.
 
 Para ver la página: https://pinktaty.github.io/EpidemiologicLibraryWeb/
 
-- `/out/`: Carpeta con los archivos de la página web en formato estático para su deployment..
+- `EpidemiologicLibrary/ScrappingCode/src/obtain_data_pdf.py`: Programa que permite usar el flujo de trabajo utilizado durante el proyecto para la recolección de datos.
+
+### Web Design
+
+Wireframe y estructura de la página disponibles en español e inglés.
